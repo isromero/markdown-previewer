@@ -21,6 +21,7 @@ body {
     background-color: #1e1e1e;
     color: white;
     padding: 1rem;
+    overflow: scroll;
 }
 
 .container-editor::before {
@@ -38,6 +39,7 @@ body {
     width: 30%;
     margin: 2rem;
     border: 4px solid gray;
+    overflow: hidden;
 }
 
 #preview {
@@ -45,7 +47,7 @@ body {
     background-color: #1e1e1e;
     color: white;
     padding: 1rem;
-    overflow: auto;
+    overflow: scroll;
 }
 
 .container-preview::before {
@@ -63,7 +65,7 @@ body {
     width: 70%;
     margin: 2rem;
     border: 4px solid gray;
-
+    overflow: hidden;
 }
 
 .containers {
